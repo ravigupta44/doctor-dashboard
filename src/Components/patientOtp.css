@@ -1,0 +1,96 @@
+.box1{
+    position: absolute;
+left: 34.1%;
+right: 24.24%;
+top: 13.28%;
+bottom: 68.16%;
+
+background: #F4F4F4;
+border-radius: 5px;
+}
+.text{
+    height: 42px;
+    width: 138px;
+    left: 508px;
+    top: 189px;
+ 
+    
+margin-top: 30px;
+font-family: Metric;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: right;
+float: left;
+color: #5F5F5F;
+
+}
+
+.otpspace{
+   
+    width: 375px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 170PX;
+    top: 195.5px;
+
+    
+background: white;
+box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.1);
+border-radius: 1px;
+}
+
+.sideText{
+ 
+margin-top: 10px;
+margin-right: 60px;
+border-radius: nullpx;
+font-family: Metric;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+
+color: #035B96;
+text-align: right;
+}
+
+.otpButton{
+   margin-left: 250px;
+width: 168px;
+height: 30.99px;
+left: 707px;
+top: 255px;
+cursor: pointer;
+background: #035B96;
+border-radius: 5px;
+color: white;
+}
+
+.profileTable1 {
+    margin-top: 200px;
+    height: 60vh;
+}
+
+table{
+    width: 95%;
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+}
+h1 {
+    color:#035b96;
+    margin-left: 20px;
+    height: 10vh;
+}
+a.report-btn {
+    background-color: #035b96;
+    padding: 2px 8px;
+    margin: 0 5px;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+}

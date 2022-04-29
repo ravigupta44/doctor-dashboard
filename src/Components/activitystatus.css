@@ -1,0 +1,90 @@
+h1{
+    color: #035B96;
+
+    text-align: center;
+}
+
+.statusbox{
+    font-size: 20px;
+    
+    width: 40%;
+    margin-left: 400px;
+    background-color: #f4f4f4;
+    height: 110px;
+    color: #035b96;
+
+}
+.textt{
+
+  
+   
+
+margin-top: 0px;
+margin-left: 60px;
+font-family: Metric;
+font-size: 25px;
+font-style: normal;
+line-height: 36px;
+color: #5F5F5F;
+}
+
+.toggle {
+    float:right;
+    margin-right: 40px;
+    margin-top: 0px;
+    position: relative;
+    width : 80px;
+    height :38px;
+    background-color: #5F5F5F;
+    border-radius: 20px;
+   
+}
+        
+/* After slide changes */
+.toggle:after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    top: 1px; 
+    left: 1px;
+    transition:  all 0.5s;
+}
+                
+/* Checkbox checked effect */
+.checkbox:checked + .toggle::after {
+    left : 50px; 
+}
+        
+/* Checkbox checked toggle label bg color */
+.checkbox:checked + .toggle {
+    background-color:#035b96;}
+        
+/* Checkbox vanished */
+.checkbox { 
+    display : none;}
+
+.texxt{
+    margin-top: 30px;
+    margin-left: 320px;
+    font-family: Metric;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: justified;
+}
+.teexxt{
+    margin-top: 10px;
+    margin-left: 340px;
+    font-family: Metric;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: justified;
+}

@@ -1,0 +1,93 @@
+h1{
+    color: #035B96;
+    font-size: 30px;
+    
+    margin-left: 380px;
+    
+}
+.box1{
+  font-size: 20px;
+width: 40%;
+margin-top: 180px;
+margin-left: 0px;
+background-color: #f4f4f4;
+height: 300px;
+color: #035b96;
+}
+.box2{
+  font-size: 20px;
+width: 45%;
+margin-top: 30px;
+margin-left:360px;
+background-color: #f4f4f4;
+height: 300px;
+color: #035b96;
+}
+.notifis{
+  margin-top: 20px;
+  margin-left: 55px;
+  font-family: Metric;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+
+color: #5F5F5F;
+
+}
+
+.toggle {
+  float:right;
+  margin-right: 40px;
+  margin-top: 0px;
+  position: relative;
+  width : 80px;
+  height :38px;
+  background-color: #5F5F5F;
+  border-radius: 20px;
+ 
+}
+      
+/* After slide changes */
+.toggle:after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  top: 1px; 
+  left: 1px;
+  transition:  all 0.5s;
+}
+              
+/* Checkbox checked effect */
+.checkbox:checked + .toggle::after {
+  left : 50px; 
+}
+      
+/* Checkbox checked toggle label bg color */
+.checkbox:checked + .toggle {
+  background-color:#035b96;}
+      
+/* Checkbox vanished */
+.checkbox { 
+  display : none;}
+
+  text{
+    margin-left: 25px;
+    font-size: 17px;
+  }
+  .ttext{
+    margin-top: 300px;
+    margin-left: 380px;
+    font-size: 14px;
+    font-style: normal;
+  }
+
+  .tttext{
+    margin-top: 40px;
+    margin-left: 580px;
+    font-size: 30px;
+    font-style: normal;
+    color: #035B96;
+  }

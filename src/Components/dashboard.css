@@ -1,0 +1,174 @@
+p{
+    margin: 0;
+}
+
+.profile-content {
+    display: flex;
+}
+
+.apt-overview{
+    width:70%;
+}
+
+.apt-count {
+    width: 150px;
+    height: 75px;
+    background-color: #f4f4f4;
+}
+
+.count-overview {
+    height:15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apt-count>.head {
+    color: #035b96;
+    text-align: center;
+    font-size: small;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.apt-count>.count {
+    color: #5f5f5f;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+ /* .apt-graph {
+    height: 30vh;
+    background-color: #c5a3a3;
+}  */
+
+.recent-apt {
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apt {
+    width: 40%;
+    height: 90%;
+    margin-left: 40px;
+}
+
+.apt>.head {
+    color: #035b96;
+    font-weight: bold;
+    font-size: large;
+    height: 15%;
+    line-height: 40px;
+    background-color: #f4f4f4;
+    padding-left: 10px;
+}
+
+.apt>.chatbox {
+    height: 20%;
+    border: 1px solid #f4f4f4;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.chatbox>img {
+    height: 80%;
+    margin: 5px;
+}
+
+.chatbox .name {
+    color: #5f5f5f;
+    font-weight: 700;
+    line-height: 30px;
+    font-size: medium;
+}
+
+.chatbox .id {
+    color: #5f5f5f;
+    line-height: 10px;
+    font-size: small;
+}
+
+.apt-time {
+    margin-left: 20px;
+}
+
+.chatbox .date {
+    color: #035b96;
+    line-height: 35px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.chatbox .time {
+    color: #5f5f5f;
+    line-height: 8px;
+    font-size: small;
+}
+
+.profile {
+    width: 30%;
+}
+
+.profile>img{
+    width: 26%;
+    margin: 5px 37%;
+}
+
+.doctor .name{
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    color: #5f5f5f;
+}
+
+.doctor .category {
+    font-size: large;
+    text-align: center;
+    color: #5f5f5f;
+}
+
+.personal-details {
+    width: 70%;
+    margin: 40px auto;
+}
+
+.personal-details .head {
+    color: #035b96;
+    font-weight: 500;
+}
+
+.personal-details .detail {
+    margin-top: 10px;
+}
+
+.detail img {
+    width: 20px;
+}
+
+.detail .value {
+    margin-left: 5px;
+    color: #5f5f5f;
+}
+
+.personal-details>.name {
+    font-size: x-large;
+    font-weight: bold;
+    color: #035b96;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.edit-btn {
+    background-color: #035b96;
+    color: #fff;
+    width: 50%;
+    margin: 40px auto;
+    text-align: center;
+    height:30px;
+    border-radius: 5px;
+    line-height: 30px;
+}
+

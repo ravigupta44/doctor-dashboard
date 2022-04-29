@@ -1,0 +1,49 @@
+p {
+    margin: 0;
+}
+
+.edit-profile,.change-pass {
+    font-size: 20px;
+    width: 60%;
+    margin: 40px auto;
+    background-color: #f4f4f4;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    color: #035b96;
+}
+
+.edit-profile:hover {
+    color: #f4f4f4;
+    background-color: #035b96;
+}
+
+#change-password-form {
+    width: 50%;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+#change-password-form>.input {
+    display: block;
+    margin: 20px 0;
+    color: #035b96;
+    height: 30px;
+}
+
+.input>input {
+    float: right;
+    height: 20px;
+    width: 70%;
+    border-radius: 4px;
+}
+
+#change-password-form>input {
+    background-color: #035b96;
+    border: 0;
+    border-radius: 4px;
+    color: #f4f4f4;
+    width: 30%;
+    height: 30px;
+    margin:0 35%;
+}

@@ -1,0 +1,51 @@
+.HelpMain {
+  width: 100%;
+  text-align: center;
+  /* text-align: center; */
+}
+.HelpForm {
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 25%;
+  text-align: center;
+  /* border: 2px solid white; */
+
+  /* background-color: red; */
+}
+.HeadHeading {
+  color: white;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #035b96;
+}
+.HelpDetails {
+  background-color: #f4f4f4;
+  padding-bottom: 5%;
+}
+.HelpInput {
+  background-color: #f4f4f4;
+  width: 80%;
+  /* margin-left: 10%; */
+  margin-top: 5%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+  border-bottom: 2px solid #5f5f5f;
+}
+.HelpText {
+  /* background-color: #f4f4f4; */
+  width: 80%;
+  /* margin-left: 10%; */
+  margin-top: 5%;
+  border: none;
+  height: 50px;
+}
+.HelpBtn {
+  color: white;
+  background-color: #035b96;
+  width: 100px;
+  height: 25px;
+}

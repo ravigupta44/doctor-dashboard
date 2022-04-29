@@ -1,0 +1,185 @@
+.left{
+    margin-left: 200px;
+    margin-top: 28px;
+   
+}
+.column {
+    width: 50%;
+    float:left;
+
+    
+  }
+ 
+
+  .saveChanges{
+      width: 180px;
+      border-radius: 6px;
+      position:absolute;
+      top: 890px;
+      align-items: center;
+      left: 700px;
+      right: 0px;
+      background-color:#035B96 ;
+      color: white;
+  }
+
+  .saveChangess{
+    width: 180px;
+    border-radius: 6px;
+    position:absolute;
+    top: 750px;
+    align-items: center;
+    left: 700px;
+    right: 0px;
+    background-color:#035B96 ;
+    color: white;
+}
+
+.personalLeft{
+    width:380px;
+    
+}
+.personalLeftGender{
+    width:390px;
+    height: 25px;
+
+}
+
+.detailsLeft{
+    color: #035B96;
+    display: flex;
+}
+
+.personalLeftAddress{
+    width:380px;
+    height: 100px;
+
+}
+.Right{
+    
+    top:39.2%;
+    
+    position: absolute;
+    
+}
+.Right1{
+    margin-left: 11px;
+    margin-top: 28px;
+
+}
+.Right11{
+    margin-left: 11px;
+    margin-top: 28px;
+}
+.personalRight{
+    width: 180px;
+}
+.personalRight1{
+    width: 380px;
+}
+
+.detailsRight{
+    color: #035B96;
+}
+.extremeRight{
+    top:43%;
+    margin-left: 210px;
+    position: absolute;
+   
+}
+.state{
+    top:83.6%;
+    margin-left: 210px;
+    position: absolute;
+}
+.statee{
+    top:62.6%;
+    margin-left: 210px;
+    position: absolute;
+
+}
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+.bankk{
+    color: #035B96;
+    text-align: center;
+    top: 50%;
+
+}
+.AccountDetailss{
+    margin-left: 490px;
+    height: 400px;
+    align-items: center;
+    position:absolute;
+
+    margin-top: 30px;
+}
+
+.detailsLeftAccount{
+    color: #035B96;
+   display: flex;
+    
+
+}
+.column1Ed{
+    color: #035B96;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.personalLeftEd{
+    width: 180px;
+}
+
+.leftsmall{
+    margin-left: 200px;
+    margin-top: 28px;
+    
+   
+
+}
+.smallerblockk{
+    margin-top: -114px;
+    margin-left: 420px;
+}
+
+.column2Ed{
+    color: #035B96;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.rightsSmallEd{
+    top:68.5%;
+    margin-left: 210px;
+    position: absolute;
+
+}
+.rightsSmallEd2{
+    top:115.5%;
+    margin-left: 210px;
+    position: absolute;
+
+}
+
+.Right2{
+    
+    top:86.2%;
+    
+    position: absolute;
+}
+
+.saveChangesEd{
+    width: 180px;
+    border-radius: 6px;
+    position:absolute;
+    top: 1370px;
+    align-items: center;
+    left: 700px;
+    right: 0px;
+    background-color:#035B96 ;
+    color: white;
+}

@@ -1,0 +1,263 @@
+.patient-profile-container{
+    width:95%;
+    margin: 0 auto;
+    height:85vh;
+    box-sizing: border-box;
+    position: relative;
+    color: #5f5f5f;
+}
+
+table{
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+thead th {
+    padding: 18px;
+    position: sticky;
+    background-color: #f4f4f4;
+    color: #035b96;
+    top: 0;
+}
+
+.basic-info {
+    width:30%;
+    height: 100%;
+    border: 2px solid #f4f4f4;
+    position: absolute;
+}
+
+.info {
+    height:30%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#name {
+    padding-top: 100px;
+    color: #035b96;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.head {
+    color:#035b96;
+}
+
+#age,#gender,#id {
+    line-height:25px;
+}
+
+.bmi {
+    height: 20%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 2px solid #f4f4f4;
+}
+
+.bmi-icon {
+    width: 28%;
+}
+
+.patient-contact{
+    height:50%;
+}
+
+.patient-contact > .contact-head {
+    color: #035b96;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.contact-icon {
+    width: 20px;
+}
+
+.contact-field {
+    margin: 10% 20px;
+}
+
+.prev-data-table {
+    width: 65%;
+    height: 70%;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+.prof-nav-bar {
+    width: 65%;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+}
+
+.prof-nav-bar .opt {
+    display: inline-block;
+    width: 25%;
+    line-height: 30px;
+    text-align: center;
+    border-right: 1px solid #5f5f5f;
+    box-sizing: border-box;
+}
+
+.medico-info {
+    width: 65%;
+    height: 25%;
+    position: absolute;
+    top: 7%;
+    left: 35%;
+}
+
+.appointment-table {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.medication-table {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.edit-profile-btn {
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    background-color: #035b96;
+    box-shadow: none;
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.med-detail-opt {
+    display: flex;
+    height: 100%;
+    width: 22%;
+    border: 2px solid #f4f4f4;
+    position: absolute;
+    top: 0;
+    left: 2.5%;
+    box-sizing: border-box;
+    box-shadow: 1px 1px #f4f4f4 inset;
+}
+
+.med-detail-opt-2{
+    left: 27.5%;
+}
+
+.med-detail-opt-3{
+    left: 52.5%;
+}
+
+.med-detail-opt-4{
+    left: 77.5%;
+}
+
+.med-detail-opt > img {
+    position: absolute;
+    height:40%;
+    top: 10px;
+    left: 10px;
+}
+
+.medico-head {
+    position: absolute;
+    top: 60%;
+    left: 10px;
+    color: #035b96;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.medico-value {
+    position: absolute;
+    top: 75%;
+    left: 10px;
+    font-size: 20px;
+}
+
+#apt-head {
+    font-size: 18px;
+    font-weight: bold;
+    color: #035b96;
+}
+
+#book-btn {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    background-color: #035b96;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 4px;
+}
+
+.pd-table{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.pd-table>thead>tr>th {
+    padding:10px;
+}
+
+.pd-table>tbody>tr>td {
+    padding:10px;
+}
+
+.close>img {
+    padding-left: 98%;
+}
+
+.medico-info-table{
+    overflow-y: auto;
+    height: 95%;
+}
+
+.medico-info-table>thead>tr>th {
+    position: sticky;
+}
+
+.medico-info .active{
+    background-color: #f4f4f4;
+}
+
+.de-pd-table {
+    text-align: left;
+    margin: 10px;
+}
+
+.de-pd-table>thead>tr>th {
+    background-color: #fff;
+    padding: 5px 10px;
+    font-weight: normal;
+}
+
+.de-pd-table>tbody>tr>td {
+    padding: 5px 10px;
+}
+
+.patient-prof-de-table {
+    margin-top: 20px;
+}

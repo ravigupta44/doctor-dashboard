@@ -1,0 +1,46 @@
+.schedule-settings{
+    display: flex;
+}
+
+.schedule {
+    width:70%;
+    height: 70vh;
+}
+
+.cur-schedule{
+    width:100%;
+    height: 50%;
+}
+
+.daily-schedule {
+    width:100%;
+    height: 50%;
+}
+
+.week-schedule {
+    width:30%;
+    height: 70vh;
+}
+
+.schedule-settings h3 {
+    color:#035b96;
+    text-align: center;
+    font-size: large;
+    padding: 7px;
+    margin: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.schedule-table {
+    color: #5f5f5f;
+    width: 90%;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
